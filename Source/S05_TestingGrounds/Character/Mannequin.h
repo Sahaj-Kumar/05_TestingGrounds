@@ -19,7 +19,7 @@ public:
 	TSubclassOf<class AGun> GunBlueprint;
 
 	UFUNCTION(BlueprintCallable, Category = "Firing")
-	void Fire();
+	void PullTrigger();
 
 protected:
 	// Called when the game starts or when spawned
